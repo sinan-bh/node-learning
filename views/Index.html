@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X Login Clone Webpage</title>
+    <link rel="stylesheet" href="Index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="close_button">
+          <i class="ri-close-fill"></i>
+        </div>
+        <div class="logo">
+          <i class="ri-twitter-x-fill"></i>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>Login</h1>
+
+        <form action="login" method="POST">
+          <div class="email_label">
+            <input type="text" id="log_in" placeholder="email" name="email" />
+            <label for="log_in">email</label>
+            <input
+              type="password"
+              placeholder="password"
+              name="pass"
+              class="login-btn"
+            />
+            <label for="log"></label>
+          </div>
+
+          <div class="sign_up_buttons">
+            <input type="submit" class="primary sign_up" value="Button" />
+          </div>
+        </form>
+      </div>
+
+      <div class="footer">
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+      </div>
+    </div>
+  </body>
+</html>
